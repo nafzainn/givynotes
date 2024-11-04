@@ -15,7 +15,7 @@ function displayNotes() {
         li.textContent = note;
 
         // Buat tombol hapus dengan teks
-        const deleteBtn = document.createElement('button');
+        const deleteBtn = document.createElement('button-delete');
         deleteBtn.classList.add('delete-btn');
         deleteBtn.textContent = "Delete";
         deleteBtn.onclick = () => deleteNote(index);
